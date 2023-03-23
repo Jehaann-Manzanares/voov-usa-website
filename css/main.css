@@ -1,0 +1,14 @@
+main{
+    background-image: url('../images/background\ main\ section.svg'); 
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: inherit;
+}
+main .container{
+   padding-top: 10em;
+   padding-bottom: 0;
+}
+
+.img-container img{
+    margin-bottom: -7px;
+}

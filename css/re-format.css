@@ -1,0 +1,13 @@
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+body{
+    margin: 0;
+}
+
+a{
+    display:inline-flex
+
+}

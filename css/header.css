@@ -1,0 +1,15 @@
+header{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.menu--items{
+    gap: 3em;
+}
+
+.menu--items > *{
+    font-weight: 700;
+}
+.menu--items .item a{
+    color: white;
+}
