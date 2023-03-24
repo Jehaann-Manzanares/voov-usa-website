@@ -2,7 +2,7 @@ main{
     background-image: url('../images/background\ main\ section.svg'); 
     background-repeat: no-repeat;
     width: 100%;
-    background-position: inherit;
+    background-position: center;
 }
 main .container{
    padding-top: 10em;
@@ -11,4 +11,14 @@ main .container{
 
 .img-container img{
     margin-bottom: -7px;
+}
+
+main .container .copy-container p{
+    margin-bottom: 1em;
+}
+main .container .copy-container .btn{
+    display: inline-block;
+}
+main .container .copy-container p{
+    margin-bottom: 1em;
 }

@@ -45,6 +45,7 @@
     top: 0;
 }
 .section-4-WyVOOV .triangle{
-    right: -13%;
-    bottom: -15%;
+    right: -18%;
+    bottom: -18%;
+    transform: rotate(102deg);
 }

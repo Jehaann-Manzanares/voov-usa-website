@@ -8,6 +8,7 @@
     --colorRed:#EE451C;
     --colorGreen:#78B404;
     --colorgrey:#424242;
+    --colorBlueDark:#000C30;
     --borderRadius:10px;
     
 
@@ -50,6 +51,8 @@
     padding: 1em 3em;
     border-radius: var(--borderRadius);
     color: white;
+    font-weight: 700;
+    
 }
 
 .btn.yellow{
@@ -58,6 +61,17 @@
 .btn.BlueSky{
     background-color:var(--colorBluesky) ;
 }
+.btn.Red{
+    background-color:var(--colorRed) ;
+}
+.btn.White{
+    background-color:white;
+    color: var(--colorRed);
+}
+.btn.green{
+    background-color:var(--colorGreen)
+}
+
 
 /*Images*/
 
@@ -119,4 +133,9 @@ p{
 .triangle.green{
     border-color: transparent var(--colorGreen) transparent transparent;
 
+}
+
+.icon{
+    width: 35px;
+    height: 35px;
 }
