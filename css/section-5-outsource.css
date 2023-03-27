@@ -62,3 +62,8 @@
     background-position-x: -18em;
 }
 
+@media screen and (max-width:575px) {
+    .section-5-outsource .container {
+        grid-template-columns: repeat(auto-fit, minmax(0, min(100%/3, max(10em, 100%/5))));
+    }
+}

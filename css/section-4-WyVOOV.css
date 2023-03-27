@@ -49,3 +49,9 @@
     bottom: -18%;
     transform: rotate(102deg);
 }
+
+@media screen and (max-width:575px) {
+    .service-container{
+        min-width: 100%
+    }
+}

@@ -43,3 +43,23 @@
 -webkit-box-shadow: 0px -5px 0px 0px var(--colorGreen);
 -moz-box-shadow: 0px -8px 0px 0px var(--colorGreen);
 }
+
+@media screen and (max-width:769px) {
+    .service-container{
+        min-height: 6.5em;
+    }
+    .service-container h2{
+        font-size: 0.8em;
+    }
+}
+
+
+@media screen and (max-width:575px) {
+    .services{
+        overflow-x: scroll;
+    }
+    .services .container {
+        width: 53em;
+        top: 0;
+    }
+}

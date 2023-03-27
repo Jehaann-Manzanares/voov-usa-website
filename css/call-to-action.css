@@ -29,11 +29,15 @@
     width: 20px;
     margin-left: .5em;
 }
-
+.call-to-action  .img-container{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 0;
+}
 .call-to-action  .img-container img{
     
-    position: absolute;
-    width: 21em;
-    bottom: 0;
-    margin-bottom: 0;
+    
+    max-width: 21em;
+    
 }

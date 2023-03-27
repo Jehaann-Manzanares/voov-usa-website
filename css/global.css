@@ -10,6 +10,7 @@
     --colorgrey:#424242;
     --colorBlueDark:#000C30;
     --borderRadius:10px;
+    --colorlightGrey:#7D7D7D;
     
 
 }
@@ -45,6 +46,11 @@
     place-items: center;
     place-content: center;
 }
+
+.grid.space-evenly{
+    justify-content: space-evenly;
+}
+
 /*Buttons*/
 
 .btn{
@@ -108,8 +114,8 @@ p{
 /*Shapes*/
 
 .circle{ 
-    width: 20em;
-    height: 20em;
+    width: 16em;
+    height: 16em;
     -moz-border-radius: 50%; 
     -webkit-border-radius: 50%; 
     border-radius: 50%;
@@ -119,6 +125,10 @@ p{
 .circle.red{
     
     background-color: var(--colorRed); 
+}
+.circle.BlueSky{
+    
+    background-color: var(--colorBluesky); 
 }
 
 .triangle{
@@ -135,7 +145,31 @@ p{
 
 }
 
+.triangle.yellow{
+    border-color: transparent var(--colorYellow) transparent transparent;
+
+}
+
 .icon{
     width: 35px;
     height: 35px;
+}
+
+@media screen and (max-width:1025px) {
+    :root{
+        --paddingContainer: 1em
+    }
+}
+@media screen and (max-width:1025px){
+    .triangle{
+        border-width: 8em 12em 8em 0;
+    }
+    .circle {
+        width: 12em;
+        height: 12em;
+    }
+}
+
+@media screen and (max-width:575px){
+  
 }
